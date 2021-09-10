@@ -1,0 +1,66 @@
+{#{% extends "base.html" %}#}
+{#{% import "bootstrap/wtf.html" as wtf %}#}
+
+{% block title %} 软件21级研 {% endblock %}
+
+{% block page_content %}
+    <div class="page-header">
+        <h1>开学报道</h1>
+    </div>
+
+    <div class="col-md-4">
+        {{ wtf.quick_form(form) }}
+    </div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{#<form action="" method="post" enctype="multipart/form-data">#}
+{#    <table>#}
+{#        <tbody>#}
+{#        <tr>#}
+{#            <td>姓名：</td>#}
+{#            <td><input type="text" name="name"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>学号：</td>#}
+{#            <td><input type="text" name="numID"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>行程码：</td>#}
+{#            <td><input type="file" name="xingchengma"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>健康码：</td>#}
+{#            <td><input type="file" name="jiankangma"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>核酸检测报告：</td>#}
+{#            <td><input type="file" name="hesuanjiance"></td>#}
+{#        </tr>#}
+{#        <tr>#}
+{#            <td>疫苗接种记录：</td>#}
+{#            <td><input type="file" name="yimiaojiezhong"></td>#}
+{#        </tr>#}
+{#                <tr>#}
+{#            <td>乘坐交通工具始发及经停站点信息：</td>#}
+{#            <td><input type="file" name="jiaotonggongju"></td>#}
+{#        </tr>#}
+{##}
+{#        <tr>#}
+{#            <td><input type="submit"  value="提交"></td>#}
+{#        </tr>#}
+{#        </tbody>#}
+{#    </table>#}
+{#</form>#}
